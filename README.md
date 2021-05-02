@@ -1,4 +1,4 @@
-# ls
+# nuxt-example
 
 ## Build Setup
 
