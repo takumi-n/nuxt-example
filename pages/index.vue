@@ -9,6 +9,9 @@
       justify-content="center"
     >
       <CHeading text-align="center" mb="4"> ⚡️ Hello chakra-ui/vue </CHeading>
+      <CHeading text-align="center" mb="4">
+        <NuxtLink to="/greeting">Greeting Page</NuxtLink>
+      </CHeading>
       <CFlex justify="center" direction="column" align="center">
         <CBox mb="3">
           <CIconButton
@@ -116,7 +119,7 @@ export default {
     CModalCloseButton,
     CIconButton,
     CFlex,
-    CHeading
+    CHeading,
   },
   inject: ['$chakraColorMode', '$toggleColorMode'],
   data () {
